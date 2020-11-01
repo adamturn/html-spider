@@ -1,0 +1,6 @@
+# leftover pycache
+__pycache__
+# vscode settings
+.vscode/
+# contains db secrets
+utils/*.properties
