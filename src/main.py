@@ -74,7 +74,7 @@ def main():
 		'https://sample.route.wall/',
 		'https://sample.route.wall/bypass/',
 		'https://sample.route.target/'
-	]x
+	]
 	responses = crawl(route=route, verify=False)
 
 	target = responses[-1]
