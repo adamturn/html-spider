@@ -66,13 +66,14 @@ def crawl(route, verify):
 
 
 def main():
+	print("Start of main spider program.")
 	src_path = pathlib.Path(__file__).parent.absolute()
 	utils_path = src_path.parent / 'utils'
 
 	route = [
-		'https://sample.route.wall',
-		'https://sample.route.wall.bypass',
-		'https://sample.route.target'
+		'https://sample.route.wall/',
+		'https://sample.route.wall/bypass/',
+		'https://sample.route.target/'
 	]x
 	responses = crawl(route=route, verify=False)
 
